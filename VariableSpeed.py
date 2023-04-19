@@ -1,5 +1,6 @@
 import cv2
 import numpy as np
+import matplotlib.pyplot as plt
 
 
 class Circle:
@@ -43,6 +44,11 @@ h_c4 = 500
 
 vel_c1 = 1/(end_x - start_x)
 
+x = []
+y1 = []
+y2 = []
+y3 = []
+y4 = []
 
 cnt = 0
 while True:
@@ -69,7 +75,14 @@ while True:
 
     print(cnt, move_c3)
 
+    x.append(cnt)
+    y1.append(move_c1)
+    y2.append(move_c2)
+    y3.append(move_c3)
+    y4.append(move_c4)
+
     if move_c1 > end_x:
+        break
         print(cnt)
         move_c1 = start_x
         move_c2 = start_x
@@ -80,3 +93,20 @@ while True:
 
 
 cv2.destroyAllWindows()
+
+fig, axs = plt.subplots(1, 4, figsize=(12, 4))
+
+axs[0].plot(x, y1, 'g')
+axs[0].set_title('constant velocity')
+
+axs[1].plot(x, y2, 'y')
+axs[1].set_title('easy ease')
+
+axs[2].plot(x, y3, 'pink')
+axs[2].set_title('more faster')
+
+axs[3].plot(x, y4, 'purple')
+axs[3].set_title('slowly at the end')
+
+
+plt.show()
