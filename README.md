@@ -37,7 +37,3 @@ $$(T/2 <= t <= T)$$
 
 
 
-https://user-images.githubusercontent.com/90448406/233329896-15dae85b-6ab0-4499-9d22-bb8a6a04b508.mp4
-
-
-
