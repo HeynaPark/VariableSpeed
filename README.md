@@ -31,12 +31,13 @@ $$pos = start + v1 * t + (1/2) * a2 * (t - T/2)^2$$
 $$(T/2 <= t <= T)$$
 
 
-![image](https://user-images.githubusercontent.com/90448406/232977887-29786819-ebba-4141-9100-fba55d0e8ff5.png)
+![graph_new](https://user-images.githubusercontent.com/90448406/233327193-9b6a3e90-a8a3-452c-8683-89c42fdd98cf.png)
 
 
 
 
 
-https://user-images.githubusercontent.com/90448406/232977901-941b0ed9-7630-4597-b560-04ddcb4ef055.mp4
+https://user-images.githubusercontent.com/90448406/233329896-15dae85b-6ab0-4499-9d22-bb8a6a04b508.mp4
+
 
 
