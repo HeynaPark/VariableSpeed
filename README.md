@@ -35,5 +35,6 @@ $$(T/2 <= t <= T)$$
 
 
 
+![output60 (1)](https://user-images.githubusercontent.com/90448406/233893346-9eb9681e-98b8-4de3-988f-a34bccf73138.gif)
 
 
